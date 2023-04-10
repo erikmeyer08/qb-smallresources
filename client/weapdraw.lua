@@ -134,7 +134,7 @@ RegisterNetEvent('weapons:client:DrawWeapon', function()
                 loadAnimDict("rcmjosh4")
                 loadAnimDict("weapons@pistol@")
 
-                local HolsterVariant = GetPedDrawableVariation(ped, 8)
+                local HolsterVariant = GetPedDrawableVariation(ped, 7)
                 WearingHolster = false
                 for i = 1,#Config.HolsterVariant,1 do
                     if HolsterVariant == Config.HolsterVariant[i] then
